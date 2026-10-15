@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://samkwee-hub.github.io/klspecialchild/sitemap.xml
+Sitemap: https://klspecialchild.com/sitemap.xml
