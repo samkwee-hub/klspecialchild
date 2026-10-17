@@ -5,8 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+<link rel="alternate" hreflang="zh-Hans" href="https://klspecialchild.com/">
+<link rel="alternate" hreflang="en" href="https://klspecialchild.com/?lang=en">
+<link rel="alternate" hreflang="ms" href="https://klspecialchild.com/?lang=ms">
+<link rel="alternate" hreflang="x-default" href="https://klspecialchild.com/">
+<script>try{var q0=(new URLSearchParams(location.search).get('lang')||'').toLowerCase();if(q0==='en'||q0==='ms'||q0==='bm'||q0==='my'){document.documentElement.className+=' l-wait';setTimeout(function(){document.documentElement.className=document.documentElement.className.replace(' l-wait','')},1500)}}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Noto+Serif:wght@500;700&family=Noto+Sans+SC:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
 
 <!-- SEO Meta Tags -->
@@ -313,8 +318,13 @@
 
 <nav id="nav">
   <div class="wrap">
-    <a class="logo" href="#">Sni Legacy Advisory<small>SAM KWEE · 特殊儿童信托规划</small></a>
-    <a class="btn btn-gold" href="#consult">预约免费咨询</a>
+    <a class="logo" href="#">Sni Legacy Advisory<small data-i="logo_sub">SAM KWEE · 特殊儿童信托规划</small></a>
+    <div class="lang" role="group" aria-label="语言 Language Bahasa">
+      <button type="button" data-l="zh" class="active" aria-pressed="true" title="中文">中文</button>
+      <button type="button" data-l="en" aria-pressed="false" title="English">EN</button>
+      <button type="button" data-l="ms" aria-pressed="false" title="Bahasa Melayu">BM</button>
+    </div>
+    <a class="btn btn-gold" href="#consult" data-i="nav_cta">预约免费咨询</a>
   </div>
 </nav>
 
@@ -324,16 +334,16 @@
     <source src="https://my.chatbees.io/objects/generated-videos/1480/1789457686810-bf3b51076854c502.mp4" type="video/mp4">
   </video>
   <div class="wrap">
-    <span class="eyebrow fade-in" style="animation-delay:.1s">特殊儿童 · 家长信托规划</span>
-    <h1>
+    <span class="eyebrow fade-in" style="animation-delay:.1s" data-i="hero_eye">特殊儿童 · 家长信托规划</span>
+    <h1 data-i="hero_h1">
       <span class="word" style="animation-delay:.2s">当我们不在了，</span><br>
       <span class="word" style="animation-delay:.45s">谁来照顾他？</span>
       <span class="en word" style="animation-delay:.7s">When we're no longer here, who will care for our child?</span>
     </h1>
-    <p class="lead fade-in" style="animation-delay:1s">一份为特殊儿童量身安排的信托规划，让您的爱与照顾，在您离开之后依然延续。<br><span style="opacity:.75;font-size:.92em">A special needs trust keeps your love and care going — for as long as your child needs it.</span></p>
+    <p class="lead fade-in" style="animation-delay:1s" data-i="hero_lead">一份为特殊儿童量身安排的信托规划，让您的爱与照顾，在您离开之后依然延续。<br><span style="opacity:.75;font-size:.92em">A special needs trust keeps your love and care going — for as long as your child needs it.</span></p>
     <div class="ctas fade-in" style="animation-delay:1.25s">
-      <a class="btn btn-gold pulse" href="#consult">预约免费咨询 · Free Consultation →</a>
-      <a class="btn btn-ghost" href="#how">了解信托如何运作</a>
+      <a class="btn btn-gold pulse" href="#consult" data-i="hero_cta1">预约免费咨询 · Free Consultation →</a>
+      <a class="btn btn-ghost" href="#how" data-i="hero_cta2">了解信托如何运作</a>
     </div>
   </div>
   <div class="scroll-cue"></div>
@@ -341,33 +351,33 @@
 
 <section class="question" data-section="question">
   <div class="wrap">
-    <span class="eyebrow reveal">每一位特殊儿童父母心里的问题</span>
-    <h2 class="reveal d1">孩子可能一辈子都需要照顾，<br>但我们不能陪他一辈子。<span class="en">Our child may need care for life. We can't be there for all of it.</span></h2>
-    <p class="reveal d2">这不是一个容易开口的话题。但提前规划，是父母能为孩子做的、最踏实的一件事。</p>
+    <span class="eyebrow reveal" data-i="q_eye">每一位特殊儿童父母心里的问题</span>
+    <h2 class="reveal d1" data-i="q_h2">孩子可能一辈子都需要照顾，<br>但我们不能陪他一辈子。<span class="en">Our child may need care for life. We can't be there for all of it.</span></h2>
+    <p class="reveal d2" data-i="q_p">这不是一个容易开口的话题。但提前规划，是父母能为孩子做的、最踏实的一件事。</p>
   </div>
 </section>
 
 <section data-section="risks">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow reveal">如果没有安排</span>
-      <h2 class="reveal d1">没有规划，爱可能到不了孩子手上<span class="en">Without a plan, good intentions can go astray</span></h2>
+      <span class="eyebrow reveal" data-i="r_eye">如果没有安排</span>
+      <h2 class="reveal d1" data-i="r_h2">没有规划，爱可能到不了孩子手上<span class="en">Without a plan, good intentions can go astray</span></h2>
     </div>
     <div class="grid g3">
       <div class="card reveal">
         <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
-        <h3>钱直接给孩子<span class="en">Money left directly to the child</span></h3>
-        <p>孩子未必有能力管理一大笔钱，容易被误用、被骗，甚至很快花光。</p>
+        <h3 data-i="r1_h">钱直接给孩子<span class="en">Money left directly to the child</span></h3>
+        <p data-i="r1_p">孩子未必有能力管理一大笔钱，容易被误用、被骗，甚至很快花光。</p>
       </div>
       <div class="card reveal d1">
         <div class="icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
-        <h3>托付给亲人<span class="en">Relying on relatives</span></h3>
-        <p>再好的兄弟姐妹也有自己的家庭与难处，没有清楚的安排，容易造成负担和误会。</p>
+        <h3 data-i="r2_h">托付给亲人<span class="en">Relying on relatives</span></h3>
+        <p data-i="r2_p">再好的兄弟姐妹也有自己的家庭与难处，没有清楚的安排，容易造成负担和误会。</p>
       </div>
       <div class="card reveal d2">
         <div class="icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M9 15l6-6M9 9l6 6"/></svg></div>
-        <h3>没有遗嘱或信托<span class="en">No will, no trust</span></h3>
-        <p>资产会按照法律程序分配，过程可能漫长，也未必照顾到最需要的那个孩子。</p>
+        <h3 data-i="r3_h">没有遗嘱或信托<span class="en">No will, no trust</span></h3>
+        <p data-i="r3_p">资产会按照法律程序分配，过程可能漫长，也未必照顾到最需要的那个孩子。</p>
       </div>
     </div>
   </div>
@@ -377,29 +387,29 @@
   <div class="orb a"></div><div class="orb b"></div>
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow reveal">特殊儿童信托</span>
-      <h2 class="reveal d1">把爱，交给一个可靠的安排<span class="en">What a special needs trust does for your family</span></h2>
+      <span class="eyebrow reveal" data-i="s_eye">特殊儿童信托</span>
+      <h2 class="reveal d1" data-i="s_h2">把爱，交给一个可靠的安排<span class="en">What a special needs trust does for your family</span></h2>
     </div>
     <div class="grid g2">
       <div class="card reveal">
         <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-        <h3>资产受到保护<span class="en">Assets are protected</span></h3>
-        <p>钱由受托人管理，不会一次性落入孩子手中，减少被挪用或被骗的风险。</p>
+        <h3 data-i="s1_h">资产受到保护<span class="en">Assets are protected</span></h3>
+        <p data-i="s1_p">钱由受托人管理，不会一次性落入孩子手中，减少被挪用或被骗的风险。</p>
       </div>
       <div class="card reveal d1">
         <div class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
-        <h3>按需、定期发放<span class="en">Paid out as needed, on schedule</span></h3>
-        <p>生活费、治疗、疗程、照顾者费用——按您事先定下的方式，长期稳定支付。</p>
+        <h3 data-i="s2_h">按需、定期发放<span class="en">Paid out as needed, on schedule</span></h3>
+        <p data-i="s2_p">生活费、治疗、疗程、照顾者费用——按您事先定下的方式，长期稳定支付。</p>
       </div>
       <div class="card reveal d2">
         <div class="icon"><svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 00-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 000-7.8z"/></svg></div>
-        <h3>您的心意被写清楚<span class="en">Your wishes, written down</span></h3>
-        <p>谁来照顾、住在哪里、生活习惯与喜好——都可以写进意愿书，让照顾者有据可依。</p>
+        <h3 data-i="s3_h">您的心意被写清楚<span class="en">Your wishes, written down</span></h3>
+        <p data-i="s3_p">谁来照顾、住在哪里、生活习惯与喜好——都可以写进意愿书，让照顾者有据可依。</p>
       </div>
       <div class="card reveal d3">
         <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg></div>
-        <h3>整个家庭都安心<span class="en">Peace of mind for the whole family</span></h3>
-        <p>兄弟姐妹不用独自扛下责任，家人之间少了猜测，多了清楚的分工。</p>
+        <h3 data-i="s4_h">整个家庭都安心<span class="en">Peace of mind for the whole family</span></h3>
+        <p data-i="s4_p">兄弟姐妹不用独自扛下责任，家人之间少了猜测，多了清楚的分工。</p>
       </div>
     </div>
   </div>
@@ -408,15 +418,15 @@
 <section data-section="process">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow reveal">规划流程</span>
-      <h2 class="reveal d1">一步一步，陪您慢慢来<span class="en">Four calm, simple steps</span></h2>
+      <span class="eyebrow reveal" data-i="p_eye">规划流程</span>
+      <h2 class="reveal d1" data-i="p_h2">一步一步，陪您慢慢来<span class="en">Four calm, simple steps</span></h2>
     </div>
     <div class="steps" id="steps">
       <div class="progress" id="progress"></div>
-      <div class="step reveal"><div class="num">1</div><div><h3>聊一聊您的孩子<span class="en">Get to know your family</span></h3><p>了解孩子的状况、日常需要和您最担心的事。不急，不推销。</p></div></div>
-      <div class="step reveal"><div class="num">2</div><div><h3>估算长期照顾所需<span class="en">Estimate lifelong care needs</span></h3><p>一起算一算生活、医疗、疗程与照顾者的长期开销，心里有个数。</p></div></div>
-      <div class="step reveal"><div class="num">3</div><div><h3>设计信托与遗嘱<span class="en">Design the trust &amp; will</span></h3><p>选择受托人与监护人，安排资金来源（储蓄、保险、EPF 提名等）与发放方式。</p></div></div>
-      <div class="step reveal"><div class="num">4</div><div><h3>定期检视与更新<span class="en">Review as life changes</span></h3><p>孩子长大、家庭变化时，一起回来调整，让规划始终合身。</p></div></div>
+      <div class="step reveal"><div class="num">1</div><div><h3 data-i="p1_h">聊一聊您的孩子<span class="en">Get to know your family</span></h3><p data-i="p1_p">了解孩子的状况、日常需要和您最担心的事。不急，不推销。</p></div></div>
+      <div class="step reveal"><div class="num">2</div><div><h3 data-i="p2_h">估算长期照顾所需<span class="en">Estimate lifelong care needs</span></h3><p data-i="p2_p">一起算一算生活、医疗、疗程与照顾者的长期开销，心里有个数。</p></div></div>
+      <div class="step reveal"><div class="num">3</div><div><h3 data-i="p3_h">设计信托与遗嘱<span class="en">Design the trust &amp; will</span></h3><p data-i="p3_p">选择受托人与监护人，安排资金来源（储蓄、保险、EPF 提名等）与发放方式。</p></div></div>
+      <div class="step reveal"><div class="num">4</div><div><h3 data-i="p4_h">定期检视与更新<span class="en">Review as life changes</span></h3><p data-i="p4_p">孩子长大、家庭变化时，一起回来调整，让规划始终合身。</p></div></div>
     </div>
   </div>
 </section>
@@ -426,12 +436,12 @@
     <div class="grid">
       <a class="portrait reveal" href="#consult" aria-label="了解更多 · 预约免费咨询"><img src="https://my.chatbees.io/objects/quick-uploads/1480/499a21d30784b2d9.jpg" alt="你的孩子不会表达时，未来照顾他的人知道他几点吃药、怕什么、喜欢什么吗？Special Child Lifetime Plan"></a>
       <div>
-        <span class="eyebrow reveal">关于我 · About</span>
-        <h2 class="reveal d1">我是 Sam Kwee<span class="en">Wills, trusts &amp; legacy planning advisor, Malaysia</span></h2>
-        <p class="reveal d2">我是 Sni Legacy Advisory 的顾问，专注于遗嘱、信托、EPF 提名与财富传承规划，主要服务马来西亚华人家庭。</p>
-        <p class="reveal d2">对特殊儿童的家庭来说，规划不只是文件，而是一份承诺。我的做法很简单：先听您说，把事情讲清楚，再一起做出适合您家庭的安排。</p>
+        <span class="eyebrow reveal" data-i="a_eye">关于我 · About</span>
+        <h2 class="reveal d1" data-i="a_h2">我是 Sam Kwee<span class="en">Wills, trusts &amp; legacy planning advisor, Malaysia</span></h2>
+        <p class="reveal d2" data-i="a_p1">我是 Sni Legacy Advisory 的顾问，专注于遗嘱、信托、EPF 提名与财富传承规划，主要服务马来西亚华人家庭。</p>
+        <p class="reveal d2" data-i="a_p2">对特殊儿童的家庭来说，规划不只是文件，而是一份承诺。我的做法很简单：先听您说，把事情讲清楚，再一起做出适合您家庭的安排。</p>
         <div class="pills reveal d3">
-          <span class="pill">遗嘱 Wills</span><span class="pill">信托 Trusts</span><span class="pill">EPF 提名</span><span class="pill">退休规划</span><span class="pill">财富传承</span>
+          <span class="pill" data-i="pill1">遗嘱 Wills</span><span class="pill" data-i="pill2">信托 Trusts</span><span class="pill" data-i="pill3">EPF 提名</span><span class="pill" data-i="pill4">退休规划</span><span class="pill" data-i="pill5">财富传承</span>
         </div>
       </div>
     </div>
@@ -441,14 +451,14 @@
 <section data-section="faq">
   <div class="wrap">
     <div class="head">
-      <span class="eyebrow reveal">常见问题 · FAQ</span>
-      <h2 class="reveal d1">家长最常问的几件事</h2>
+      <span class="eyebrow reveal" data-i="f_eye">常见问题 · FAQ</span>
+      <h2 class="reveal d1" data-i="f_h2">家长最常问的几件事</h2>
     </div>
     <div class="faq">
-      <details class="reveal"><summary><span>我需要很多钱才能设立信托吗？<small>Do I need to be wealthy to set up a trust?</small></span></summary><div class="ans">不一定。很多家庭是用保险赔偿、储蓄或 EPF 作为信托的资金来源。咨询时我们会按您的实际情况一起评估。</div></details>
-      <details class="reveal"><summary><span>已经写了遗嘱，还需要信托吗？<small>I already have a will. Do I still need a trust?</small></span></summary><div class="ans">遗嘱决定资产给谁；信托决定钱如何被管理、如何长期发放。对需要终身照顾的孩子，两者通常需要配合使用。</div></details>
-      <details class="reveal"><summary><span>谁可以当受托人？<small>Who can act as trustee?</small></span></summary><div class="ans">可以是专业信托公司、可信任的家人，或两者搭配。我们会一起分析各自的优缺点。</div></details>
-      <details class="reveal"><summary><span>第一次咨询要收费吗？<small>Is the first consultation free?</small></span></summary><div class="ans">第一次咨询免费，也没有任何购买压力。先把事情聊清楚，再决定下一步。</div></details>
+      <details class="reveal"><summary><span data-i="f1_q">我需要很多钱才能设立信托吗？<small>Do I need to be wealthy to set up a trust?</small></span></summary><div class="ans" data-i="f1_a">不一定。很多家庭是用保险赔偿、储蓄或 EPF 作为信托的资金来源。咨询时我们会按您的实际情况一起评估。</div></details>
+      <details class="reveal"><summary><span data-i="f2_q">已经写了遗嘱，还需要信托吗？<small>I already have a will. Do I still need a trust?</small></span></summary><div class="ans" data-i="f2_a">遗嘱决定资产给谁；信托决定钱如何被管理、如何长期发放。对需要终身照顾的孩子，两者通常需要配合使用。</div></details>
+      <details class="reveal"><summary><span data-i="f3_q">谁可以当受托人？<small>Who can act as trustee?</small></span></summary><div class="ans" data-i="f3_a">可以是专业信托公司、可信任的家人，或两者搭配。我们会一起分析各自的优缺点。</div></details>
+      <details class="reveal"><summary><span data-i="f4_q">第一次咨询要收费吗？<small>Is the first consultation free?</small></span></summary><div class="ans" data-i="f4_a">第一次咨询免费，也没有任何购买压力。先把事情聊清楚，再决定下一步。</div></details>
     </div>
   </div>
 </section>
@@ -458,9 +468,9 @@
   <div class="wrap" style="position:relative;z-index:1">
     <div class="grid">
       <div>
-        <span class="eyebrow reveal">免费咨询 · Free Consultation</span>
-        <h2 class="reveal d1">今天开始，为孩子安排明天<span class="en">Start planning your child's tomorrow, today</span></h2>
-        <ul class="reveal d2">
+        <span class="eyebrow reveal" data-i="c_eye">免费咨询 · Free Consultation</span>
+        <h2 class="reveal d1" data-i="c_h2">今天开始，为孩子安排明天<span class="en">Start planning your child's tomorrow, today</span></h2>
+        <ul class="reveal d2" data-i="c_list">
           <li>一对一，私密、不赶时间</li>
           <li>用中文把复杂的事讲清楚</li>
           <li>没有推销压力，先了解再决定</li>
@@ -468,8 +478,8 @@
         </ul>
       </div>
       <div class="form-box reveal d2">
-        <h3>留下资料，我会亲自联系您</h3>
-        <iframe src="https://my.chatbees.io/forms/14lg6d42?theme=light&accent=%23C8894B&flat=1" title="预约免费咨询表格" loading="lazy"></iframe>
+        <h3 data-i="c_form">留下资料，我会亲自联系您</h3>
+        <script src="https://my.chatbees.io/forms-embed.js" data-form="14lg6d42" data-theme="light" data-accent="#C8894B" async></script>
       </div>
     </div>
   </div>
@@ -478,7 +488,7 @@
 <footer>
   <div class="wrap">
     <p>© 2026 Sni Legacy Advisory · Sam Kwee · Special Needs Trust Planning · Malaysia</p>
-    <p>本页内容仅供一般参考，不构成法律或财务建议。具体安排请预约咨询。<br>This page is for general information only and is not legal or financial advice.</p>
+    <p data-i="foot2">本页内容仅供一般参考，不构成法律或财务建议。具体安排请预约咨询。<br>This page is for general information only and is not legal or financial advice.</p>
   </div>
 </footer>
 
@@ -489,11 +499,12 @@
 (function(){
   const a=document.getElementById('bgm'),b=document.getElementById('musicBtn'),l=document.getElementById('musicLbl');
   const MAX=0.25;let fadeT,userOff=false;
+  function lbl(i,fb){return (window.__mlbl?window.__mlbl(i):fb)}
   function fade(to,cb){clearInterval(fadeT);fadeT=setInterval(()=>{const d=to>a.volume?0.02:-0.02;a.volume=Math.min(MAX,Math.max(0,a.volume+d));if(Math.abs(a.volume-to)<0.021){a.volume=to;clearInterval(fadeT);cb&&cb()}},80)}
-  function play(){a.volume=0;a.play().then(()=>{b.classList.add('on');l.textContent='音乐 开';fade(MAX)}).catch(()=>{})}
-  function stop(){fade(0,()=>a.pause());b.classList.remove('on');l.textContent='播放音乐 ♪'}
+  function play(){a.volume=0;a.play().then(()=>{b.classList.add('on');l.textContent=lbl(1,'音乐 开');fade(MAX)}).catch(()=>{})}
+  function stop(){fade(0,()=>a.pause());b.classList.remove('on');l.textContent=lbl(0,'播放音乐 ♪')}
   b.addEventListener('click',e=>{e.stopPropagation();if(a.paused||!b.classList.contains('on')){userOff=false;play()}else{userOff=true;stop()}});
-  function first(e){if(e&&b.contains(e.target))return;if(!userOff&&a.paused)play();['pointerdown','keydown','touchstart'].forEach(t=>removeEventListener(t,first))}
+  function first(e){if(e&&e.target&&e.target.closest&&(b.contains(e.target)||e.target.closest('.lang')))return;if(!userOff&&a.paused)play();['pointerdown','keydown','touchstart'].forEach(t=>removeEventListener(t,first))}
   ['pointerdown','keydown','touchstart'].forEach(t=>addEventListener(t,first,{passive:true}));
 })();
 const nav=document.getElementById('nav');
@@ -505,6 +516,169 @@ function prog(){const r=steps.getBoundingClientRect();const p=Math.min(1,Math.ma
 addEventListener('scroll',prog,{passive:true});prog();
 const hv=document.querySelector('.hero video');
 addEventListener('scroll',()=>{if(scrollY<innerHeight&&hv)hv.style.transform='translateY('+scrollY*.25+'px) scale(1.05)'},{passive:true});
+</script>
+
+<script>
+/* Language switcher: Chinese is the default. EN / BM text is stored below. */
+(function(){
+  var T={
+  en:{
+    logo_sub:`SAM KWEE · SPECIAL NEEDS TRUST`,
+    nav_cta:`Book a Free Consultation`,
+    hero_eye:`Special needs · Trust planning for parents`,
+    hero_h1:`<span class="word" style="animation-delay:.1s">When we're no longer here,</span><br><span class="word" style="animation-delay:.3s">who will care for our child?</span>`,
+    hero_lead:`A trust plan designed for a child with special needs, so your love and care continue after you are gone.`,
+    hero_cta1:`Book a Free Consultation →`,
+    hero_cta2:`See how a trust works`,
+    q_eye:`The question every parent of a special needs child carries`,
+    q_h2:`Our child may need care for life,<br>but we can't be there for all of it.`,
+    q_p:`This isn't an easy topic to raise. But planning ahead is one of the most solid things a parent can do for their child.`,
+    r_eye:`If there is no plan`,
+    r_h2:`Without a plan, good intentions can go astray`,
+    r1_h:`Money left directly to the child`,
+    r1_p:`A child may not be able to manage a large sum of money. It can be misused, lost to scams, or spent quickly.`,
+    r2_h:`Relying on relatives`,
+    r2_p:`Even the best siblings have their own families and struggles. Without a clear arrangement, it can become a burden and cause misunderstandings.`,
+    r3_h:`No will, no trust`,
+    r3_p:`Assets are distributed through legal procedures. This can take a long time and may not look after the child who needs it most.`,
+    s_eye:`Special needs trust`,
+    s_h2:`What a special needs trust does for your family`,
+    s1_h:`Assets are protected`,
+    s1_p:`A trustee manages the money, so it never lands in the child's hands all at once. This reduces the risk of misuse or scams.`,
+    s2_h:`Paid out as needed, on schedule`,
+    s2_p:`Living costs, treatment, therapy and caregiver fees are paid steadily over the long term, the way you set out in advance.`,
+    s3_h:`Your wishes, written down`,
+    s3_p:`Who will care for your child, where they will live, their routines and preferences can all go into a letter of wishes, so caregivers have something to follow.`,
+    s4_h:`Peace of mind for the whole family`,
+    s4_p:`Siblings don't have to carry the responsibility alone. There is less guessing and a clearer division of roles.`,
+    p_eye:`The planning process`,
+    p_h2:`Four calm, simple steps, at your pace`,
+    p1_h:`Get to know your family`,
+    p1_p:`We learn about your child's situation, daily needs and what worries you most. No rush, no selling.`,
+    p2_h:`Estimate lifelong care needs`,
+    p2_p:`Together we work out the long-term cost of living, medical care, therapy and caregivers, so you have a clear number in mind.`,
+    p3_h:`Design the trust &amp; will`,
+    p3_p:`Choose the trustee and guardian, and arrange the source of funds (savings, insurance, EPF nomination and more) and how payments are made.`,
+    p4_h:`Review as life changes`,
+    p4_p:`As your child grows and your family changes, we return to adjust the plan so it always fits.`,
+    a_eye:`About me`,
+    a_h2:`I'm Sam Kwee<span class="en">Wills, trusts &amp; legacy planning advisor, Malaysia</span>`,
+    a_p1:`I'm an advisor at Sni Legacy Advisory, focusing on wills, trusts, EPF nominations and wealth legacy planning, mainly serving Chinese families in Malaysia.`,
+    a_p2:`For families of children with special needs, planning isn't just paperwork. It's a promise. My approach is simple: listen first, explain things clearly, then work out an arrangement that suits your family.`,
+    pill1:`Wills`, pill2:`Trusts`, pill3:`EPF nominations`, pill4:`Retirement planning`, pill5:`Legacy planning`,
+    f_eye:`FAQ`,
+    f_h2:`What parents ask most`,
+    f1_q:`Do I need to be wealthy to set up a trust?`,
+    f1_a:`Not necessarily. Many families fund a trust with insurance proceeds, savings or EPF. In a consultation we assess your actual situation together.`,
+    f2_q:`I already have a will. Do I still need a trust?`,
+    f2_a:`A will decides who receives the assets; a trust decides how the money is managed and paid out over time. For a child who needs lifelong care, the two are usually used together.`,
+    f3_q:`Who can act as trustee?`,
+    f3_a:`A professional trust company, a trusted family member, or a combination of both. We'll weigh the pros and cons of each together.`,
+    f4_q:`Is the first consultation free?`,
+    f4_a:`Yes, the first consultation is free, with no pressure to buy. We talk things through first, then you decide the next step.`,
+    c_eye:`Free consultation`,
+    c_h2:`Start planning your child's tomorrow, today`,
+    c_list:`<li>One-to-one, private, never rushed</li><li>Consultations in English, Bahasa Melayu or Chinese</li><li>Complex matters explained in clear, simple language</li><li>No sales pressure: understand first, then decide</li>`,
+    c_form:`Leave your details and I'll contact you personally`,
+    foot2:`This page is for general information only and is not legal or financial advice. For specific arrangements, please book a consultation.`
+  },
+  ms:{
+    logo_sub:`SAM KWEE · AMANAH KEPERLUAN KHAS`,
+    nav_cta:`Tempah Konsultasi Percuma`,
+    hero_eye:`Anak berkeperluan khas · Perancangan amanah ibu bapa`,
+    hero_h1:`<span class="word" style="animation-delay:.1s">Apabila kami tiada lagi,</span><br><span class="word" style="animation-delay:.3s">siapa yang akan menjaga anak kami?</span>`,
+    hero_lead:`Perancangan amanah yang disesuaikan untuk anak berkeperluan khas, supaya kasih sayang dan penjagaan anda berterusan selepas anda tiada.`,
+    hero_cta1:`Tempah Konsultasi Percuma →`,
+    hero_cta2:`Lihat cara amanah berfungsi`,
+    q_eye:`Soalan yang ada di hati setiap ibu bapa anak berkeperluan khas`,
+    q_h2:`Anak kami mungkin memerlukan penjagaan seumur hidup,<br>tetapi kami tidak dapat bersama mereka selamanya.`,
+    q_p:`Ini bukan topik yang mudah dibincangkan. Namun merancang lebih awal ialah salah satu perkara paling bermakna yang boleh dilakukan ibu bapa untuk anak mereka.`,
+    r_eye:`Jika tiada perancangan`,
+    r_h2:`Tanpa perancangan, niat baik mungkin tidak sampai kepada anak`,
+    r1_h:`Wang diberikan terus kepada anak`,
+    r1_p:`Anak mungkin tidak mampu menguruskan jumlah wang yang besar. Wang itu mudah disalahgunakan, menjadi mangsa penipuan, atau cepat habis.`,
+    r2_h:`Bergantung kepada saudara-mara`,
+    r2_p:`Adik-beradik yang paling baik pun mempunyai keluarga dan cabaran sendiri. Tanpa pengaturan yang jelas, ia boleh menjadi beban dan menimbulkan salah faham.`,
+    r3_h:`Tiada wasiat atau amanah`,
+    r3_p:`Aset akan diagihkan mengikut prosedur undang-undang. Prosesnya mungkin lama dan belum tentu memberi perhatian kepada anak yang paling memerlukan.`,
+    s_eye:`Amanah untuk anak berkeperluan khas`,
+    s_h2:`Apa yang amanah ini lakukan untuk keluarga anda`,
+    s1_h:`Aset dilindungi`,
+    s1_p:`Wang diuruskan oleh pemegang amanah dan tidak diserahkan kepada anak sekali gus, justeru mengurangkan risiko penyalahgunaan atau penipuan.`,
+    s2_h:`Dibayar mengikut keperluan dan jadual`,
+    s2_p:`Kos sara hidup, rawatan, terapi dan upah penjaga dibayar secara tetap dalam jangka panjang, mengikut cara yang anda tetapkan terlebih dahulu.`,
+    s3_h:`Hasrat anda dicatat dengan jelas`,
+    s3_p:`Siapa yang akan menjaga, di mana anak tinggal, rutin dan kegemaran mereka boleh ditulis dalam surat hasrat, supaya penjaga mempunyai panduan.`,
+    s4_h:`Seluruh keluarga lebih tenang`,
+    s4_p:`Adik-beradik tidak perlu memikul tanggungjawab seorang diri. Kurang andaian, lebih jelas pembahagian peranan.`,
+    p_eye:`Proses perancangan`,
+    p_h2:`Empat langkah mudah, mengikut rentak anda`,
+    p1_h:`Mengenali keluarga anda`,
+    p1_p:`Kami memahami keadaan anak anda, keperluan harian dan perkara yang paling anda bimbangkan. Tanpa tergesa-gesa, tanpa desakan jualan.`,
+    p2_h:`Menganggar keperluan penjagaan seumur hidup`,
+    p2_p:`Bersama-sama kita mengira kos jangka panjang sara hidup, perubatan, terapi dan penjaga, supaya anda mempunyai gambaran yang jelas.`,
+    p3_h:`Merangka amanah dan wasiat`,
+    p3_p:`Memilih pemegang amanah dan penjaga, serta mengatur sumber dana (simpanan, insurans, penamaan KWSP/EPF dan lain-lain) dan cara pembayaran.`,
+    p4_h:`Semak semula apabila keadaan berubah`,
+    p4_p:`Apabila anak membesar dan keluarga berubah, kita kembali untuk menyesuaikan perancangan supaya sentiasa sesuai.`,
+    a_eye:`Tentang saya`,
+    a_h2:`Saya Sam Kwee<span class="en">Penasihat perancangan wasiat, amanah dan legasi, Malaysia</span>`,
+    a_p1:`Saya penasihat di Sni Legacy Advisory, memfokuskan wasiat, amanah, penamaan KWSP (EPF) dan perancangan legasi harta, terutamanya berkhidmat kepada keluarga Cina di Malaysia.`,
+    a_p2:`Bagi keluarga anak berkeperluan khas, perancangan bukan sekadar dokumen, tetapi satu janji. Pendekatan saya mudah: dengar dahulu, terangkan dengan jelas, kemudian rangka pengaturan yang sesuai untuk keluarga anda.`,
+    pill1:`Wasiat`, pill2:`Amanah`, pill3:`Penamaan KWSP (EPF)`, pill4:`Perancangan persaraan`, pill5:`Perancangan legasi`,
+    f_eye:`Soalan lazim`,
+    f_h2:`Soalan yang paling kerap ditanya`,
+    f1_q:`Adakah saya perlu kaya untuk menubuhkan amanah?`,
+    f1_a:`Belum tentu. Ramai keluarga menggunakan hasil insurans, simpanan atau KWSP (EPF) sebagai sumber dana amanah. Semasa konsultasi, kita menilai keadaan sebenar anda bersama-sama.`,
+    f2_q:`Saya sudah ada wasiat. Adakah saya masih perlukan amanah?`,
+    f2_a:`Wasiat menentukan siapa menerima harta; amanah menentukan bagaimana wang diuruskan dan dibayar dalam jangka panjang. Bagi anak yang memerlukan penjagaan seumur hidup, kedua-duanya biasanya digunakan bersama.`,
+    f3_q:`Siapa boleh menjadi pemegang amanah?`,
+    f3_a:`Syarikat amanah profesional, ahli keluarga yang dipercayai, atau gabungan kedua-duanya. Kita akan menimbang kelebihan dan kekurangan setiap pilihan bersama-sama.`,
+    f4_q:`Adakah konsultasi pertama percuma?`,
+    f4_a:`Ya, konsultasi pertama percuma tanpa sebarang tekanan untuk membeli. Kita berbincang dahulu, kemudian anda tentukan langkah seterusnya.`,
+    c_eye:`Konsultasi percuma`,
+    c_h2:`Mulakan perancangan untuk masa depan anak anda, hari ini`,
+    c_list:`<li>Satu lawan satu, peribadi dan tidak tergesa-gesa</li><li>Konsultasi dalam Bahasa Melayu, Bahasa Inggeris atau Bahasa Cina</li><li>Perkara rumit diterangkan dengan bahasa yang jelas dan mudah</li><li>Tiada tekanan jualan: fahami dahulu, kemudian buat keputusan</li>`,
+    c_form:`Tinggalkan maklumat anda dan saya akan menghubungi anda sendiri`,
+    foot2:`Halaman ini hanya untuk maklumat am dan bukan nasihat undang-undang atau kewangan. Untuk pengaturan khusus, sila tempah konsultasi.`
+  }};
+  var META={
+    zh:{h:'zh-Hans',t:document.title,d:(document.querySelector('meta[name="description"]')||{getAttribute:function(){return ''}}).getAttribute('content')},
+    en:{h:'en',t:'Special Needs Trust Planning | Sni Legacy Advisory',d:'A trust plan that looks after your child for life when you are no longer there. Special needs trust planning for parents in Malaysia. Free consultation.'},
+    ms:{h:'ms',t:'Perancangan Amanah Anak Berkeperluan Khas | Sni Legacy Advisory',d:'Perancangan amanah yang melindungi anak anda seumur hidup apabila anda tiada lagi. Konsultasi percuma untuk ibu bapa di Malaysia.'}
+  };
+  var ML={zh:['播放音乐 ♪','音乐 开'],en:['Play music ♪','Music on'],ms:['Mainkan muzik ♪','Muzik aktif']};
+  window.__lang='zh';
+  window.__mlbl=function(i){return ML[window.__lang||'zh'][i]};
+  var els=Array.prototype.slice.call(document.querySelectorAll('[data-i]'));
+  els.forEach(function(e){e._zh=e.innerHTML});
+  var btns=Array.prototype.slice.call(document.querySelectorAll('.lang button'));
+  var dm=document.querySelector('meta[name="description"]');
+  var mb=document.getElementById('musicBtn'),ml=document.getElementById('musicLbl');
+  function set(l,push){
+    if(!META[l])l='zh';
+    window.__lang=l;
+    els.forEach(function(e){
+      var k=e.getAttribute('data-i');
+      if(l==='zh'){e.innerHTML=e._zh}
+      else if(T[l]&&T[l][k]!=null){e.innerHTML=T[l][k]}
+    });
+    document.documentElement.lang=META[l].h;
+    document.title=META[l].t;
+    if(dm&&META[l].d)dm.setAttribute('content',META[l].d);
+    btns.forEach(function(b){var on=b.getAttribute('data-l')===l;b.classList.toggle('active',on);b.setAttribute('aria-pressed',on?'true':'false')});
+    if(mb&&ml)ml.textContent=ML[l][mb.classList.contains('on')?1:0];
+    if(push){
+      try{var u=new URL(location.href);if(l==='zh')u.searchParams.delete('lang');else u.searchParams.set('lang',l);history.replaceState(null,'',u.toString())}catch(e){}
+    }
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){set(b.getAttribute('data-l'),true)})});
+  var q='';
+  try{q=(new URLSearchParams(location.search).get('lang')||'').toLowerCase()}catch(e){}
+  if(q==='bm'||q==='my')q='ms';
+  if(q==='en'||q==='ms')set(q,false);
+  document.documentElement.classList.remove('l-wait');
+})();
 </script>
 <script src="https://my.chatbees.io/widget.js" data-widget="86513405" async></script>
 </body>
